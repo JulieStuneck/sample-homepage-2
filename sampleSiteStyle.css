@@ -1,0 +1,106 @@
+body {
+	background-color: #ffff;
+}
+
+nav {
+	z-index: 1;	
+}
+
+pre {
+	color: white;
+	font-family: sans-serif;
+}
+
+.sticky.is-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+	z-index: 15;
+    margin-top: 0;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.logo-with-words {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
+
+.dropdown-choices {
+	justify-content: flex-end;
+}
+
+.hero-image1 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./images/hero1.jpg");
+	padding-top: 30rem;
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.hero-text1 {
+	text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-image2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./images/church.jpg");
+	padding-top: 30rem;
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text2 {
+	text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.row {
+	margin: 2rem;
+}
+
+/*.top-stories {
+	padding-top: 4rem;
+}*/
+
+h3 {
+	color:  #002b80;
+}
+
+.stories {
+	display: flex;
+	background-color: transparent;
+}
+
+.card {
+	border: none;
+	margin: .5rem;
+	padding:.5rem;
+}
+
+.equipping-title {
+	display: flex;
+	justify-content: center;
+	padding-top: 2rem;
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+}
